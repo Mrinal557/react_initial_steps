@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 // import './index.css';
 // const myname = "mrinal";
-import Heading from "./Heading";
-import Para from "./Para";
-
+// import Heading from "./Heading";
+// import Para from "./Para";
+// import List from "./List";
 // let curDate = new Date();
 // curDate = curDate.getHours();
 
@@ -29,16 +30,5 @@ import Para from "./Para";
 // }
 
 ReactDOM.render(
-    <>
-        <Heading>
-        <Para/>
-            <p>This is my world!!</p>
-            <ol>
-                <li>Mrinal</li>
-                <li>Anand</li>
-                <li>NIT Agartala</li>
-            </ol>
-        </Heading>
-        </>,
-    document.getElementById('root')
+        <App/>, document.getElementById('root')
 );
